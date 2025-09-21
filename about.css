@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9FA1CD;
+  color: #2b1d2c;
+  line-height: 1.5;
+}
+
+
+.header {
+   background-color: #9FA1CD;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #3a2f5e;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  color: #5c2a4d;
+  font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #9FA1CD;
+    border-top: 3px solid #662A4D;
+    border-bottom: 3px solid #662A4D;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #662A4D;
+}
+
+
+.about {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5c2a4d;
+}
+
+.about .content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.about .text {
+  max-width: 500px;
+  text-align: left;
+  color:#662A4D;
+}
+
+.about ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.about .aveng1 img {
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.btn {
+ display: block;
+  background: #904E6D;
+  color: #9FA1CD;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 250px;
+
+}
+
+.btn:hover {
+  background: #904E6D;
+ 
+}
+
+
+.aveng2 img {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+
+footer {
+    background: #904E6D;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.media {
+    display: flex;
+    gap: 15px;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.media img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b2354; 
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #5c2a4d; 
+}
+
+
+.about h2 {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5c2a4d; 
+}
